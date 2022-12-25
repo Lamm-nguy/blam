@@ -112,7 +112,7 @@ def Main():
             ░ ░ ░ ▒  ░  ░  ░   ▒ ░   ░   ░ ░   ░         ░     ░░   ░ """)
         tg6 = input("TARGET: ")
         os.system("cd GHunt && python main.py login")
-        os.system("cd GHunt && python setup.py install && python main.py email " + tg6)
+        os.system("cd GHunt && python main.py email " + tg6)
     if OOption == "7":
         print(f"""
               ▄██████▄     ▄████████  ▄█  ███▄▄▄▄       ███        ▄████████    ▄████████ 
